@@ -10,9 +10,6 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="180dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"
         app:cardElevation="10dp"
         android:id="@+id/cardViewGraph"
         app:cardCornerRadius="5dp">
@@ -117,9 +114,6 @@
         android:layout_height="fill_parent"
         android:layout_below="@+id/cardViewGraph"
         android:layout_above="@+id/btnTrack"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"
         app:cardElevation="10dp"
         app:cardCornerRadius="5dp"
         >
@@ -127,6 +121,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp"
             >
             <com.leo.simplearcloader.SimpleArcLoader
                 android:visibility="visible"
@@ -188,7 +183,6 @@
                             android:id="@+id/tvCases"
                             android:textAlignment="textEnd"
                             android:textSize="18sp"
-
                             android:textColor="@color/color_one"
                             android:textStyle="bold"
                             android:fontFamily="sans-serif-light"
@@ -451,8 +445,6 @@
             </ScrollView>
 
         </RelativeLayout>
-
-
     </androidx.cardview.widget.CardView>
 
 
@@ -461,9 +453,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_margin="20dp"
-        android:background="@color/color_one"
+        android:background="@color/colorPrimary"
         android:text="Track countries"
+        android:textAllCaps="false"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         android:padding="5dp"

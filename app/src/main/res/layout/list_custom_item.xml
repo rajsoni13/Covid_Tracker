@@ -8,6 +8,7 @@
     <ImageView
         android:layout_width="80dp"
         android:layout_height="55dp"
+        android:layout_margin="1dp"
         android:id="@+id/imageFlag"
         android:padding="5dp"
         />
